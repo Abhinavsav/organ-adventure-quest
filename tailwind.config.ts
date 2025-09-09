@@ -84,6 +84,7 @@ export default {
         "gradient-success": "var(--gradient-success)",
         "gradient-background": "var(--gradient-background)",
         "gradient-card": "var(--gradient-card)",
+        "gradient-subtle": "var(--gradient-subtle)",
       },
       boxShadow: {
         "game": "var(--shadow-game)",
@@ -139,6 +140,10 @@ export default {
           "0%, 100%": { transform: "translateY(0px)" },
           "50%": { transform: "translateY(-6px)" },
         },
+        "scale-in": {
+          "0%": { transform: "scale(0.8)", opacity: "0" },
+          "100%": { transform: "scale(1)", opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -150,6 +155,7 @@ export default {
         "slide-down": "slide-down 0.3s ease-out",
         "pulse-glow": "pulse-glow 2s ease-in-out infinite",
         "float": "float 3s ease-in-out infinite",
+        "scale-in": "scale-in 0.3s ease-out",
       },
     },
   },
