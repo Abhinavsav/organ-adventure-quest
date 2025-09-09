@@ -2,41 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Educational Game Design System - Playful and Engaging */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Educational Background - Soft and Clean */
+    --background: 205 50% 98%;
+    --foreground: 215 25% 20%;
 
+    /* Game UI Cards - Clean and Modern */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 25% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Vibrant Educational Blue */
+    --primary: 212 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm Success Green */
+    --secondary: 142 76% 56%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted - Soft Educational Tones */
+    --muted: 205 20% 95%;
+    --muted-foreground: 215 20% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Playful Orange */
+    --accent: 24 95% 60%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Destructive - Soft Warning Red */
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and Inputs */
+    --border: 205 30% 85%;
+    --input: 205 30% 92%;
+    --ring: 212 100% 50%;
 
-    --radius: 0.5rem;
+    /* Game-specific Colors */
+    --success: 142 76% 56%;
+    --success-foreground: 0 0% 100%;
+    --error: 0 70% 60%;
+    --error-foreground: 0 0% 100%;
+    --warning: 45 93% 58%;
+    --warning-foreground: 0 0% 100%;
+    
+    /* Educational Purple */
+    --purple: 269 65% 65%;
+    --purple-foreground: 0 0% 100%;
+    
+    /* Soft Pink for UI accents */
+    --pink: 330 65% 70%;
+    --pink-foreground: 0 0% 100%;
+
+    /* Game Gradients */
+    --gradient-game: linear-gradient(135deg, hsl(212 100% 50%) 0%, hsl(269 65% 65%) 100%);
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 56%) 0%, hsl(142 76% 45%) 100%);
+    --gradient-background: linear-gradient(135deg, hsl(205 50% 98%) 0%, hsl(205 40% 96%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(205 20% 98%) 100%);
+
+    /* Shadows */
+    --shadow-game: 0 10px 25px -5px hsl(212 100% 50% / 0.1), 0 10px 10px -5px hsl(212 100% 50% / 0.04);
+    --shadow-organ: 0 4px 12px -2px hsl(215 25% 20% / 0.1), 0 2px 4px -1px hsl(215 25% 20% / 0.06);
+    --shadow-success: 0 0 20px hsl(142 76% 56% / 0.4);
+    --shadow-error: 0 0 20px hsl(0 70% 60% / 0.4);
+
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
